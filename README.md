@@ -3,7 +3,7 @@
 點選`Dragalia Data.xlsx`以後，點選右上角`Download`下載。
 
 ### 手機
-點選`Dragalia Data.xlsx`以後，點選內容區塊的'Open binary file`下載。
+點選`Dragalia Data.xlsx`以後，點選內容區塊的`Open binary file`下載。
 
 ----
 
