@@ -27,3 +27,7 @@
 
 #### 手機
 點選對應Excel檔案後，點選內容區塊的`Open binary file`下載。
+
+### 額外連結
+
+- [角色Icon](https://dragalialost.gamepedia.com/Category:Character_Icon_Images)
