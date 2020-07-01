@@ -1,0 +1,9 @@
+# Pycharm project files
+.idea
+
+# Auto-generated output
+output.txt
+
+# Compiled Python
+__pycache__
+*.pyc
