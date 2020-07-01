@@ -10,10 +10,36 @@ Primarily for https://forum.gamer.com.tw/Co.php?bsn=34173&sn=59026.
 
 ## Notes
 
+Element Code
+
+- **`F`**ire
+
+- **`W`**ater
+
+- Wi**`N`**d
+
+- **`L`**ight
+
+- **`D`**ark
+
+-----
+
 Convention of the header for both `res/chara.csv` and `res/dragon.csv`
 
 Name | Element Code | Image URL | Video URL
 :---: | :---: | :---: | :---:
+
+-----
+
+Convention of the data order
+
+#### Dragon
+
+Element `F, W, N, L, D`, Max Might `High to Low`
+
+#### Character
+
+Element `F, W, N, L, D`, In-Game Weapon Type Order `(Check the game)`
 
 -----
 
