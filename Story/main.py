@@ -142,7 +142,7 @@ def main():
 
     # Append section title
     print("DRAGON - Appending section title...")
-    post_content.append(f"[div align=center][size=6][font=微軟正黑體]【{NAME_DRAGON}】[/font][/size][/div]")
+    post_content.append(f"[div align=center][h2][font=微軟正黑體]【{NAME_DRAGON}】[/font][/h2][/div]")
     post_content.append(f"[div align=center][/div]\n")
     print("DRAGON - Appending section title...completed")
 
@@ -160,7 +160,7 @@ def main():
 
     # Append section title
     print("CHARA - Appending section title...")
-    post_content.append(f"[div align=center][size=6][font=微軟正黑體]【{NAME_CHARACTER}】[/font][/size][/div]")
+    post_content.append(f"[div align=center][h2][font=微軟正黑體]【{NAME_CHARACTER}】[/font][/h2][/div]")
     post_content.append(f"[div align=center][/div]\n")
     print("CHARA - Appending section title...completed")
 
