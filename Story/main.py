@@ -107,7 +107,7 @@
 from typing import List, Dict, Tuple
 from time import time
 
-from data import NAME_DRAGON, NAME_CHARACTER, PLAYLIST_DRAGON, PLAYLIST_CHARACTER
+from data import NAME_DRAGON, NAME_CHARACTER
 from elemtable import generate_elem_table
 from element import ElementType
 
@@ -119,13 +119,13 @@ def read_post_head() -> List[str]:
     return lines
 
 
-def read_post_elem_table(fp: str, video_playlist: str) -> Dict[str, List[Tuple[str, str]]]:
+def read_post_elem_table(fp: str) -> Dict[str, List[Tuple[str, str]]]:
     d: Dict[str, List[Tuple[str, str]]] = {elem: [] for elem, _, _ in ElementType.TO_PROCESS}
 
     with open(fp, encoding="utf-8") as f:
         for line in f:
             name, element, url_img, url_video = line.split(",", 4)
-            d[ElementType.cast(element)].append((url_img, f"{url_video.strip()}?{video_playlist}"))
+            d[ElementType.cast(element)].append((url_img, f"{url_video.strip()}"))
 
     return d
 
@@ -148,7 +148,7 @@ def main():
 
     # Read the data
     print("DRAGON - Reading data...")
-    data: Dict[str, List[Tuple[str, str]]] = read_post_elem_table("res/dragon.csv", PLAYLIST_DRAGON)
+    data: Dict[str, List[Tuple[str, str]]] = read_post_elem_table("res/dragon.csv")
     print("DRAGON - Reading data...completed")
 
     for elem_key, elem_title, color in ElementType.TO_PROCESS:
@@ -166,7 +166,7 @@ def main():
 
     # Read the data
     print("CHARA - Reading data...completed")
-    data: Dict[str, List[Tuple[str, str]]] = read_post_elem_table("res/chara.csv", PLAYLIST_CHARACTER)
+    data: Dict[str, List[Tuple[str, str]]] = read_post_elem_table("res/chara.csv")
     print("CHARA - Reading data...completed")
 
     for elem_key, elem_title, color in ElementType.TO_PROCESS:
