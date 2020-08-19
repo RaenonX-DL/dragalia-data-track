@@ -12,15 +12,15 @@ Primarily for https://forum.gamer.com.tw/Co.php?bsn=34173&sn=59026.
 
 Element Code
 
-- **`F`**ire
+- **`F`** lame
 
-- **`W`**ater
+- **`W`** ater
 
-- Wi**`N`**d
+- Wi**`N`** d
 
-- **`L`**ight
+- **`L`** ight
 
-- **`D`**ark
+- Sha **`D`** ow
 
 -----
 
