@@ -2,6 +2,10 @@
 
 Primarily for https://forum.gamer.com.tw/Co.php?bsn=34173&sn=59026.
 
+Character icon obtained from https://dragalialost.gamepedia.com/index.php?title=Category:Character_Icon_Images.
+
+Dragon icon obtained from https://dragalialost.gamepedia.com/Category:Dragon_Icons.
+
 ## To add/edit
 
 1. Head to `res/chara.csv` or `res/dragon.csv`

@@ -31,3 +31,5 @@
 ### 額外連結
 
 - [角色Icon](https://dragalialost.gamepedia.com/Category:Character_Icon_Images)
+
+- [龍族Icon](https://dragalialost.gamepedia.com/Category:Dragon_Icons)
