@@ -4,7 +4,7 @@ Desired elemental table
 [div align=center][color=#3366FF][font=微軟正黑體][size=4]【風】[/size][/font][/color][/div]
 [div][table width=95% cellspacing=1 cellpadding=1 border=2 align=center]
 [tr]
-[td align=center][img=https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/5/57/210028_01.png width=60][/td]
+[td align=center][img=https://static.wikia.nocookie.net/dragalialost_gamepedia_en/images/5/57/210028_01.png width=60][/td]
 [/tr]
 [tr]
 [td align=center][font=微軟正黑體][size=4]連結[/size][/font][/td]
